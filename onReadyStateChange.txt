@@ -1,0 +1,12 @@
+It should have both ready status and status
+Ready-Status:
+0: Request not initialized
+1: Server connection is established
+2: Request received
+3: Processing request
+4: Request Finished and response is ready
+
+Status:
+200: Ok
+404: Not Found
+403: Forbidden
