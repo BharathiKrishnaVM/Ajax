@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AJAX Hands-on Practice</title>
+    <link rel="stylesheet" href="./externalAPI.css">
 </head>
 <body>
     <h1>AJAX - ASYNCHRONOUS JAVASCRIPT AND XML</h1>
@@ -21,8 +22,15 @@
     <button id="user">USER</button>
     <div id="user1"></div>
 
+    <!-- External API -->
+    <br>
+    <button id="btn" onclick="getUsers()">Get List of users</button>
+    <br><br>
+    <div id="apiUsers"></div>
+
   <script src = "/onload.js"></script>
   <script src = "/onReadyStateChange.js"></script>
   <script src = "ajax1.js"></script>
+  <script src="./externalAPI.js"></script>
 </body>
 </html>
