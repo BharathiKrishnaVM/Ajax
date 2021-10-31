@@ -13,7 +13,7 @@ xhr.onreadystatechange = function(){
     if(this.readyState == 4 && this.status == 200){
         document.getElementById('onready').innerHTML = this.responseText;
     }
-    elseif(this.readyState == '2' && this.status == 404)
+    else if(this.readyState == 4 && this.status == 404)
     {
         console.log('File not found.... Recheck the file name');
     }

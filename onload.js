@@ -13,17 +13,8 @@ xhr.onprogress = function(){
 function onLoad(){
 //onload the function
 xhr.onload = function(){
-if(this.status == 200){
+if(this.status === 200){
     document.getElementById('onload-button').innerHTML = this.responseText;
-
-//     var onload = JSON.parse(this.responseText);
-//     var output = '<ul>' +
-//     '<li>Status code: 200 - Ok</li>' +
-//     '<li>Status code: 404 - Not found</li>' +
-//     '<li>Status code: 403 - Forbidden</li>' +
-//     '</ul>' ;
-
-//    console.log(this.responseText);
 }
 };
 //Error

@@ -1,0 +1,20 @@
+[
+    {
+        "name" : "Bharathi Krishna",
+        "experience" : "3.5",
+        "currentCompany" : "Cognizant Technology solutions",
+        "Designation" : "Associate"
+    },
+    {
+        "name" : "Krishna",
+        "Experience" : "3",
+        "currentCompany" : "Tech Mahindra",
+        "Designation" : "Test Engineer"
+    },
+    {
+        "name" : "V M",
+        "experience" : "1",
+        "currentCompany" : "Capgemini",
+        "Designation" : "Junior Test Engineer"
+    }
+]
